@@ -15,10 +15,6 @@ multiplicationTable = function(size){
     return table;
 }
 
-console.log(multiplicationTable(4) + "\n");
-console.log(multiplicationTable(6) + "\n");
-console.log(multiplicationTable(12) + "\n");
-console.log(multiplicationTable(2) + "\n");
 
 
 multiplicationTable = function(size) {
@@ -29,3 +25,5 @@ multiplicationTable = function(size) {
     });
   });
 }
+
+
