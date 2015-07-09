@@ -5,8 +5,6 @@ function MyObject(){
 var myObj = {};
 // Set the inheritance
 myObj.__proto__ = MyObject.prototype;
-
-// Use MyObject as the object constructor
 myObj.constructor = MyObject;
 
 // Initializes myObj
