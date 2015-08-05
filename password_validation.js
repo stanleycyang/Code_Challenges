@@ -18,6 +18,6 @@ function validate(password){
 //console.log(validate('a123'));
 /*console.log(validate('aWa123'));*/
 console.log(validate('aW 123'));
-function validate(password) {
-      return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/.test(password);
-}
+/*function validate(password) {*/
+      //return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/.test(password);
+/*}*/
